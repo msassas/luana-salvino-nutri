@@ -1,0 +1,60 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+server/node_modules
+dist
+dist-ssr
+*.local
+
+# Environment variables (IMPORTANTE - NÃO ENVIAR PARA O GIT!)
+.env
+.env.local
+.env.production.local
+.env.development.local
+server/.env
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Vercel
+.vercel
+
+# Environment variants and local credentials
+.env.*
+!.env.example
+!.env.*.example
+.npmrc
+.aws/
+credentials.json
+service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local tools, backups, archives, and migration checks
+.claude/
+.codex/
+*.backup
+*.bak
+*.tmp
+*.temp
+/nul
+/blog-luana.zip
+/blog-luana/
+/.cloudflare-check-*/
